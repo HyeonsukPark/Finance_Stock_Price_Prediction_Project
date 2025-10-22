@@ -20,6 +20,8 @@ The project consists of two primary stages:
 Yahoo Finance API was used to fetch historical price data for 5 stocks (Tesla, 
 Nvidia, Amazon, Apple, Netflix).  
 
+Stock Date Range: 2020-01-01 to 2025-09-30  
+
 ## LSTM Prediction Pipeline 
 
 ### Data Preparation
