@@ -6,10 +6,10 @@ independent assets.
 
 The project consists of two primary stages: 
 
-* Stock Data Analysis: Generating plots for prices of 'Volume', 'High', 'Low', 
-  'Close', Market Capital, various Exponential Moving Averages (EMA) and Simple
-  Moving Averages (SMA) to define short-term, medium-term, and long-term trends. 
-  It also includes stock increase analysis using volatility. 
+* Stock Data Analysis:  
+  1. Generating plots for prices of 'Volume', 'High', 'Low' 'Close', Market Capital.  
+  2. Various Exponential Moving Averages (EMA) and Simple Moving Averages (SMA) to define short-term, medium-term, and long-term trends. 
+  3. It also includes stock increase analysis using volatility. 
 
 * LSTM Time Series Modeling: Training an LSTM (Long Short-Term Memory) neural
   network on each stock's historical price data and evaluating its predictive
@@ -19,6 +19,8 @@ The project consists of two primary stages:
 
 Yahoo Finance API was used to fetch historical price data for 5 stocks (Tesla, 
 Nvidia, Amazon, Apple, Netflix).  
+
+Stock Date Range: 2020-01-01 to 2025-09-30  
 
 ## LSTM Prediction Pipeline 
 
